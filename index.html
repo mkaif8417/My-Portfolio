@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kaif's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- <img src="logo.png" alt="Logo" class="logo"> Replace with your logo path -->
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1 class="welcome">Welcome To My Portfolio</h1>
+        <p class="me">I AM <b>MOHD KAIF</b>, A Front-End Developer</p>
+        <a href="#profile" class="btn">View My Profile</a>
+    </section>
+
+    <!-- About me Section -->
+    <section id="profile" class="max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md hidden">
+        <h2 class="text-2xl font-bold mb-4 ">PERSONAL DETAILS</h2>
+        <ul class="skill list-disc pl-5 mb-6">
+            <li><strong>FULL NAME:</strong> MOHD KAIF</li>
+            <li><strong>AGE:</strong> 22</li>
+            <li><strong>FATHER NAME:</strong> MD NIZAMUDDIN</li>
+            <li><strong>NATIONALITY:</strong> INDIAN</li>
+            <li><strong>ADDRESS:</strong>NAUBAD BIDAR KARNATAKA</li>
+        </ul>
+        
+        <h3 class="text-2xl font-bold mb-4">Education</h3>
+        <p class="text-gray-700">
+            Bachelor's Degree in Computer Science from Gulbarga University, Kalaburagi (2021 - 2024)
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card" onclick="showProjectDetails('Project 1', 'This is a brief description of your first project.')">
+            <h3>Project 1</h3>
+            <p>This Portfoli Is My First Project.</p>
+        </div>
+        <div class="project-card" onclick="showProjectDetails('Project 2', 'This is a brief description of your second project.')">
+            <h3>Project 2</h3>
+            <p>A brief description of your second project.</p>
+        </div>
+        <div class="project-card" onclick="showProjectDetails('Project 2', 'This is a brief description of your second project.')">
+            <h3>Project 3</h3>
+            <p>A brief description of your second project.</p>
+        </div>
+        <div class="project-card" onclick="showProjectDetails('Project 2', 'This is a brief description of your second project.')">
+            <h3>Project 4</h3>
+            <p>A brief description of your second project.</p>
+        </div>
+        <div class="project-card" onclick="showProjectDetails('Project 2', 'This is a brief description of your second project.')">
+            <h3>Project 5</h3>
+            <p>A brief description of your second project.</p>
+        </div>
+        <!-- GitHub Link -->
+        <p>Check out all my projects on <a href="https://github.com/mkaif8417/PROJECTS-" target="_blank" class="btn">GitHub</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:mkaif6937@gmail.com">mkaif6937@gmail.com</a></p>
+        <p>Connect with me on <a href="https://shorturl.at/QS37H" target="_blank">LinkedIn</a></p>
+        <p>View my projects on <a class="gitbtn" href="https://github.com/mkaif11/Projects" target="_blank">GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kaif's Portfolio. All rights reserved.</p>
+    </footer>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
